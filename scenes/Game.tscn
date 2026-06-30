@@ -10,13 +10,6 @@
 z_index = 2
 position = Vector2(26, 50)
 
-[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1098289554]
-zoom = Vector2(4, 4)
-process_callback = 0
-limit_left = 0
-limit_bottom = 170
-position_smoothing_enabled = true
-
 [node name="Tiles" type="Node" parent="." unique_id=15198688]
 
 [node name="Terrain" type="TileMapLayer" parent="Tiles" unique_id=1791299495]

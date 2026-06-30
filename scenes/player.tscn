@@ -121,3 +121,9 @@ autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1029375918]
 shape = SubResource("CapsuleShape2D_a2165")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=671343783]
+process_callback = 0
+limit_left = 0
+limit_bottom = 209
+position_smoothing_enabled = true
